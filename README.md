@@ -11,6 +11,7 @@
 
 
 # Contributers
-Technical Dangwal
+----------------
+```Technical Dangwal```
 ------------------
-Punit Hacker
+```Punit Hacker ```
