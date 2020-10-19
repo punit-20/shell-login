@@ -12,13 +12,13 @@ ______________
 git clone https://github.com/Punit-art/shell-login 
 bash setup.sh ```
 
-*Enjoy*
 
 
 
 
 
-# Contributers#
+
+# Contributers
 ----------------
 ```Technical Dangwal```
 ------------------
