@@ -1,8 +1,11 @@
 
 # Shell Login
 **Commands **
-```pkg install git```
+--------------
+______________
 
+```pkg install git```
+```git clone 
 
 
 
