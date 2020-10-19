@@ -5,9 +5,10 @@
 ______________
 
 ```pkg install git```
-```git clone 
+```git clone https://github.com/Punit-art/shell-login ```
+```bash setup.sh```
 
-
+**Enjoy**
 
 
 
