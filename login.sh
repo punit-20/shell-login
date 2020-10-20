@@ -37,7 +37,35 @@ PS1='\[\e[1;34m
 \a┌─[\033[1;93m \@\033[1;34m ]──[\033[1;93m \d\033[1;34m ]\033[1;34m
 \a├─[\033[1;32m\w\033[1;34m]\033[1;34m
 \[\e[34m\]└─>\[\e[35m\]$user\[\e[34m\][~]:#\[\e[1;32m\] '
-            
+
+            date=`date`
+date1=${date:11:2}
+if [ $date1 -le 12 ]
+then
+      var1="Good morning"
+      espeak "$var1 master"
+elif [ $date1 -ge "12" ] && [ $date1 -le 17 ]
+then
+        var1="Good afternoon"
+        espeak "$var1 master"
+elif [ $date1 -ge 18 ] && [ $date1 -le 20 ]
+then
+        var1="Good evening"
+        espeak "$var1 master"
+else
+	var1="Its Night"
+	espeak "Its Night time"
+fi
+
+clear
+
+
+echo "≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈" | lolcat
+echo "                   Welcome to termux            " | lolcat
+echo "                         $name                  " | lolcat
+echo "              `date`                            " | lolcat
+echo "                      $var1                     " | lolcat
+echo "≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈" | lolcat
                       
 
 shopt -s autocd
