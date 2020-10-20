@@ -4,7 +4,7 @@ cd
 cd ..
 cd usr/etc
 rm bash.bashrc
-cat <<Uninstall>bash.bashrc
+cat bash.bashrc
 clear
 if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 	command_not_found_handle() {
@@ -13,3 +13,4 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 fi
 
 PS1='\$ '
+cat
