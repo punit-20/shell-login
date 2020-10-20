@@ -6,6 +6,7 @@ rm $PREFIX/etc/bash.bashrc
 cp bash.bashrc $PREFIX/etc
 cp login.sh $PREFIX/etc
 apt update
+pkg install cmatrix
 apt-get install -y ruby
 apt-get install -y espeak
 gem install lolcat
