@@ -19,9 +19,10 @@ echo -en "\e[93m Do you Want Stylish font (y/n) y=yes ,n=no? \e[m "
 read answer
 
 if [ "$answer" != "${answer#[Yy]}" ] ;then
-tput cup 17 21
-    echo -e "\e[42m Thankyou for subscribing our channel \e[m"
+
+    echo -e "\e[42m Thankyou For using font \e[m"
+bash stylfont.sh
 else
-tput cup 17 23
-    echo -e "\e[41m Please subsrcibe our channel \e[m"
+
+    echo -e "\e[41m Ok if you don't want  \e[m"
 fi
