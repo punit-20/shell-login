@@ -16,7 +16,7 @@ read -p $'\e[32mEnter Password for Login :\e[0m ' password
 cd
 cd ..
 cd usr/etc
-
+rm motd
 rm bash.bashrc
 cat <<LOGIN>bash.bashrc
 trap '' 2
