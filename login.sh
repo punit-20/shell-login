@@ -32,9 +32,13 @@ echo -e "\e[1;32m
 read -p $'\e[32mInput Username :\e[0m ' user
 read -s -p $'\e[32mInput Password :\e[0m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
-PS1='\033[1;32m $username=======|
-             $username ---------|
-                      '
+PS1='\[\e[1;34m
+\a┌──\a─T─I─M─E─\a──┐\033[1;34m\a┌──\a─D─A─T─E─\a───>\033[1;34m
+\a┌─[\033[1;93m \@\033[1;34m ]──[\033[1;93m \d\033[1;34m ]\033[1;34m
+\a├─[\033[1;32m\w\033[1;34m]\033[1;34m
+\[\e[34m\]└─>\[\e[35m\]$user\[\e[34m\][~]:#\[\e[1;32m\] '
+            
+                      
 
 shopt -s autocd
 shopt -s cdspell
