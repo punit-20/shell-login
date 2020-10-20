@@ -2,8 +2,8 @@ echo "-----------------------------------------------------"
 echo "          TERMUX LOGIN BY Punit.        "
 echo "It will take some time to install please be patience"
 echo "-----------------------------------------------------"
-rm $PREFIX/etc/bash.bashrc
-cp bash.bashrc $PREFIX/etc
+
+
 cp login.sh $PREFIX/etc
 apt update
 pkg install cmatrix
@@ -15,3 +15,4 @@ pip install lolcat
 
 echo ""
 echo -e "\e[1mExit termux to apply changes\e[0m"
+exit
