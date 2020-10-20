@@ -9,6 +9,9 @@ apt update
 pkg install cmatrix
 apt-get install -y ruby
 apt-get install -y espeak
-gem install lolcat
+apt install python
+pip install lolcat
+
+
 echo ""
 echo -e "\e[1mExit termux to apply changes\e[0m"
