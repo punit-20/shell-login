@@ -26,3 +26,13 @@ This script is for security or lock in termux
 
 
 **Exit and Login To apply changes**
+
+
+# Contributers
+Punit-art (only)
+
+# Publisher
+Aditya dangwal
+
+# YouTube Video
+https://youtu.be/1ls2RYNEATM
