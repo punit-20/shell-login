@@ -26,7 +26,8 @@ This script is for security or lock in termux
 
 
 **Exit and Login To apply changes**
-
+# Note
+**If you entered password incorrect or name i can't help you **
 
 # Contributers
 Punit-art (only)
