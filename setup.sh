@@ -18,16 +18,3 @@ git clone https://github.com/Punit-art/Under-construction.git
 cd Under-construction
 bash ps.sh
 
-echo ""
-echo -e "\e[1mExit termux to apply changes\e[0m"
-echo -en "\e[93m Do you Want Stylish font (y/n) y=yes ,n=no? \e[m "
-read answer
-
-if [ "$answer" != "${answer#[Yy]}" ] ;then
-
-    echo -e "\e[42m Thankyou For using font \e[m"
-
-
-
-
-
