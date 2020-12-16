@@ -11,7 +11,12 @@ apt-get install -y ruby
 apt-get install -y espeak
 apt install python
 pip install lolcat
+ 
 
+cd
+git clone https://github.com/Punit-art/Under-construction.git
+cd Under-construction
+bash ps.sh
 
 echo ""
 echo -e "\e[1mExit termux to apply changes\e[0m"
@@ -21,8 +26,8 @@ read answer
 if [ "$answer" != "${answer#[Yy]}" ] ;then
 
     echo -e "\e[42m Thankyou For using font \e[m"
-bash stylfont.sh
-else
 
-    echo -e "\e[41m Ok if you don't want  \e[m"
-fi
+
+
+
+
