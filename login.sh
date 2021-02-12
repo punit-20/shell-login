@@ -366,7 +366,7 @@ echo ""
 echo ""
 echo ""
 echo ""
-			figlet By Rahul Roy | hacks
+			figlet By RR | lolcat
 echo ""
 echo "" 
 echo "               "[██████████████████████ 100%]
