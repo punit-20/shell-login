@@ -453,7 +453,10 @@ shopt -s compat43
 shopt -s compat32
 shopt -s lithist
 clear
-banner
+cd
+cd shell-login
+bash banner.sh
+cd
 else
 echo ""
 echo -e "\e[1;31m  Your Password Is Incorrect
