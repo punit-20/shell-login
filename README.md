@@ -43,7 +43,3 @@ This script is for security or lock in termux
 # Contributers
 Punit-art (only)
 
-# Contact 
-
-[Instagarm] (https://instagram.com/_._.p_u_n_i_t._._) <img src="https://instagram.fidr1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/120296204_636866290360472_8906644743150467806_n.jpg?_nc_ht=instagram.fidr1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=pKgEpIWpSN8AX_6qNGE&edm=ABfd0MgBAAAA&ccb=7-4&oh=a63a4f006dad761b8981cfba3658be7b&oe=61B586B2&_nc_sid=7bff83"/>
-
