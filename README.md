@@ -22,7 +22,7 @@ This script is for security or lock in termux
 
 ``apt install git ``
 
-``git clone https://github.com/Punit-art/shell-login.git``
+``git clone`` https://github.com/Punit-art/shell-login.git
 
 ``cd shell-login``
 
@@ -44,4 +44,4 @@ Punit-art (only)
 
 # Contact 
 
-``Instagarm:-https://instagram/_._.p_u_n_i_t._._``
+``Instagarm:-`` **https://instagram/_._.p_u_n_i_t._._**
