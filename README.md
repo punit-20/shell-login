@@ -47,8 +47,3 @@ This script is for security or lock in termux
 # Contributers
 Punit-art (only)
 
-# Publisher
-Aditya dangwal
-
-# YouTube Video
-https://youtu.be/1ls2RYNEATM
