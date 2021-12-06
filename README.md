@@ -18,11 +18,6 @@ This script is for security or lock in termux
 
 # Commands
 
-
-
-
-
-
 ``apt update``
 
 ``apt install git ``
@@ -47,3 +42,6 @@ This script is for security or lock in termux
 # Contributers
 Punit-art (only)
 
+# Contact 
+
+``Instagarm:-https://instagram/_._.p_u_n_i_t._._``
