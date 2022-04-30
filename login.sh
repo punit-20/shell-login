@@ -366,7 +366,7 @@ echo ""
 echo ""
 echo ""
 echo ""
-			figlet By Punit | lolcat
+			figlet By RR | lolcat
 echo ""
 echo "" 
 echo "               "[██████████████████████ 100%]
@@ -403,9 +403,9 @@ echo -e "\e[1;32m
 
 
 \e[1;35m
-[+] Author : ♣♠Yours Punit♠|♣
+[+] Author : ♣♠Rahul Roy♠|♣
 [+] Team : Hackers
-[+] Github : https://www.github.com/Punit-art
+[+] Github : https://www.github.com/CaptainR-23
 \e[0m"
 }
 menu () {
